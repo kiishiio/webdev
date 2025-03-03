@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/** {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}*/
+
+:root {
+    background-color: aliceblue;
+}
