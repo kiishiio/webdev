@@ -6,3 +6,6 @@ includes:
 - motion
 - clsx
 - glsl & three support
+
+## license
+MIT
