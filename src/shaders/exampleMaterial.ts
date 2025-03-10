@@ -1,13 +1,13 @@
 import * as THREE from "three";
 
-import exampleVertex from "./example.vert";
-import exampleFragment from "./example.frag";
+import vert from "./example.vert";
+import frag from "./example.frag";
 
-export const ShutterMaterial = new THREE.ShaderMaterial({
+export const ExampleMaterial = new THREE.ShaderMaterial({
     uniforms: {
         uTime: { value: 0 },
     },
-    vertexShader: exampleVertex,
-    fragmentShader: exampleFragment,
+    vertexShader: vert,
+    fragmentShader: frag,
     transparent: true,
 })
